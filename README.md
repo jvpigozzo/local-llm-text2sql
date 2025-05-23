@@ -3,7 +3,7 @@
 * Docker e Docker Compose instalados no sistema.
 * Conexão com a internet para baixar os modelos e dependências.
 
-## Suba os containers rodando `docker-compose up -d`
+## Suba os containers rodando no caminho que se encontra o arquivo do docker compose `docker-compose up -d`
 ## Acesse os serviços:
 * Ollama API: http://localhost:11434
 * WebUI: http://localhost:3000
