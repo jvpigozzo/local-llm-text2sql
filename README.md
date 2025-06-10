@@ -6,7 +6,7 @@
 ## Suba os containers rodando no caminho que se encontra o arquivo do docker compose, o comando: `docker-compose up -d`
 ## Acesse os serviços:
 * Ollama API: http://localhost:11434
-* WebUI: http://localhost:3000
+* WebUI: http://localhost:8080
 
 ### Ao acessar o WebUI vá em:
 
