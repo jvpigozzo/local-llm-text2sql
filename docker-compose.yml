@@ -5,8 +5,6 @@ services:
     image: ghcr.io/open-webui/open-webui:main
     environment:
       - MODEL_DOWNLOAD_DIR=/models
-      - OLLAMA_API_BASE_URL=http://ollama:11434
-      - OLLAMA_API_URL=http://ollama:11434
       - LOG_LEVEL=debug
     volumes:
       - data:/data
