@@ -4,6 +4,12 @@
 
 
 import ollama
+from langchain_community.chat_models import ChatOllama
 
-result = ollama.generate(model='model_namev1', prompt='Por que o ceu é azul?')
-print(result['response'])
+#result = ollama.generate(model='model_namev1', prompt='Por que o ceu é azul?')
+#print(result['response'])
+
+chat = ChatOllama(model="deepseek-r1:1.5b")
+response = chat.invoke("Conte uma piada")
+print(response)
+                  
